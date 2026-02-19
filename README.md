@@ -5,7 +5,7 @@
 ![PostgreSQL](https://img.shields.io/badge/DB-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-Набор диагностических утилит для инженеров L3 Support. Предназначен для экстренной диагностики СУБД (PostgreSQL/MariaDB) в инфраструктуре Kaspersky Security Center (Linux). Помогает быстро локализовать причины недоступности консоли KSC или деградации производительности.
+Набор диагностических утилит предназначен для экстренной диагностики СУБД (PostgreSQL/MariaDB) в инфраструктуре Kaspersky Security Center (Linux). Помогает быстро локализовать причины недоступности консоли KSC или деградации производительности.
 
 ---
 
