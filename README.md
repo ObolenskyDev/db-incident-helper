@@ -5,6 +5,8 @@
 ![PostgreSQL](https://img.shields.io/badge/DB-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
+> Этот набор включён в общий тулкит: см. `MIGRATION.md` и `..\enterprise-linux-ops-toolkit`.
+
 Набор утилит для оперативной диагностики СУБД (PostgreSQL/MariaDB) в Enterprise-инфраструктуре. Разработан для локализации причин недоступности сервисов или деградации производительности.
 
 ---
