@@ -45,14 +45,10 @@ def parse_log(filepath, threshold_ms=1000):
         print("-" * 60)
 
 if __name__ == "__main__":
-    # Если аргументы не переданы — генерируем ДЕМО в папке logs/
+    # Если аргументы не переданы — генерируем ДЕМО во временной директории
     if len(sys.argv) < 2:
-        log_dir = "logs"
-        demo_file = os.path.join(log_dir, "demo_pg.log")
-
-        # Создаем папку logs, если её нет
-        if not os.path.exists(log_dir):
-            os.makedirs(log_dir)
+        import tempfile
+        demo_file = os.path.join(tempfile.gettempdir(), "demo_pg.log")
 
         print(f"[DEMO] Файл не указан. Генерация тестового лога '{demo_file}'...")
         with open(demo_file, "w") as f:
